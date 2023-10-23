@@ -45,7 +45,12 @@ a:hover {
 } 
 
 .content {
+    margin-bottom: 48px ;
     border-top: 0.6px solid black;
 }
 
-
+.about-me {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
