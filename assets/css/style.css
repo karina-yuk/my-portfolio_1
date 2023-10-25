@@ -50,6 +50,7 @@ a {
     font-size: 30px;
 }
 
+
 a:hover {
     color:rgb(204, 138, 107)
 } 
@@ -60,14 +61,20 @@ a:hover {
 }
 
 
- div {
+ figure {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content:space-around;
-    font-size: 20px;
+
+}
+.image-zoom {
+  transition: transform .2s; 
 }
 
+.image-zoom:hover {
+  transform: scale(1.1); 
+}
 
 .my-projects-image {
     width: 300px;
@@ -76,17 +83,26 @@ a:hover {
     border: 3px solid #000000;
     border-radius: 4px;
     padding: 5px; 
+    display: block;
+}
+
+.image-caption {
+    color: rgb(9, 9, 9);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 2px;
+    text-align:center;   
 }
 
 .about-me-paragraph, .my-email{
     text-align:left;
     font-size: 20px;
     padding: 5px 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 h1, h2, h3 {
     text-align:justify;
-    padding: 5px 10px;
+    padding: 10px 10px;
     font-size: 30px;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
 }
