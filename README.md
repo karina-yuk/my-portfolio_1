@@ -1,18 +1,13 @@
 # my-portfolio
 
 ## Description
-Changes were made to codebase so that it follows accessibitly standards.
+Created a porfolio about me so I can showcase my work and future work for my future empoyees to see.
 
 ## App Samples
-<img src="./assets/images/Screenshot 2023-10-05 220656.png"/>
-Header was added to the body and div was replaced by nav (defines navigation links).
-<img src="./assets/images/Screenshot 2023-10-05 221419.png"/>
-Class element was removed.
-
+To style thw webpage flexbox and media queries were used along with other CSS styling.
 
 ## Deployed App
-[Deployment Link](https://karina-yuk.github.io/Horiseon-Website/)
+[Deployment Link](https://karina-yuk.github.io/my-portfolio_1/)
 
 ## References
-<https://www.w3schools.com/css/css_selectors.asp#:~:text=CSS%20selectors%20are%20used%20to,a%20specific%20relationship%20between%20them)>
-<https://www.w3schools.com/tags/default.asp>
+<https://www.w3schools.com/css/default.asp)>
